@@ -7,7 +7,7 @@ puts "Combien d'handle contiennent un numéro ?"
 puts "#{journalistes.grep(/[0-9]/).count}"
 
 puts "Combien d'handle contiennent les 4 lettres du prénom Aude à la suite (sans faire attention à la casse) ?"
-puts "#{journalistes.grep(/aude/).count}"
+puts "#{journalistes.grep(/aude/i).count}"
 
 puts "Combien commencent par une majuscule ?"
 n = 0 
